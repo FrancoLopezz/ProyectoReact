@@ -12,12 +12,12 @@ const H1saludo = styled.h1`
     text-shadow: 1px 0 red, 2px 0 blue; 
 `;
 
-const itemListContainer = (greeting) => {
+const ItemListContainer = (greeting) => {
     return(
         
-        <H1saludo>Hola <span>{greeting.nombre}</span>!😁 Bienvenido a E-COMMERCE!</H1saludo> 
+        <H1saludo>Hello <span>{greeting.nombre}</span>!😁 And Welcome To E-COMMERCE of StarWars!</H1saludo> 
 
     )
 }
 
-export default itemListContainer;
+export default ItemListContainer;

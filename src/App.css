@@ -5,6 +5,14 @@
   padding: 0;
 }
 
+h1{
+  color: #fff;
+}
+
+label{
+  color: #fff;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -43,4 +51,14 @@ main {
 
 p{
   color: white;
+}
+
+section{
+  background-color: #23232e;
+
+}
+
+section div{
+  display: flex;
+  flex-wrap: wrap;
 }

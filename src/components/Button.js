@@ -14,15 +14,15 @@ const Button = ({ children}) => {
   }, []);
 
   useEffect(() => {
-    console.log('me he montado!')
+    /* console.log('me he montado!') */
   }, []);
 
   useEffect(() => {
-    console.log('ha cambiado count!')
+    /* console.log('ha cambiado count!') */
   }, [count]);
 
   useEffect(() => {
-    console.log('me ejecuto siempre que cambie algo del componente!')
+    /* console.log('me ejecuto siempre que cambie algo del componente!') */
   });
 
   const clickHandler = () => {

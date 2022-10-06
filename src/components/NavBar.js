@@ -1,13 +1,14 @@
 import React from 'react'; 
 import Cartwidget from "./CartWidget";
-
+import {Link} from "react-router-dom"
+ 
 
 const Navbar = () => {
     return(
         <nav>
             <div id="contenedorNav">
                 
-                <a href="#"> <Cartwidget/> </a>
+                <a href="/"> <Cartwidget/> </a>
                 
                 <div id="mobile-menu">
                 <div id="line1"></div>
@@ -17,10 +18,9 @@ const Navbar = () => {
                 
                 <div>
                     <ul id="nav-list">
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Ventas</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><Link to={"/"}>Início</Link></li>
+                        <li><Link to={"/characters"}>Character</Link></li>
+                        <li><Link to={"/planets"}>Planets</Link></li>
                     </ul>
                 </div>
             </div>
